@@ -6,7 +6,7 @@ A focused, phone-friendly two-minute pause for teachers: **Reflect â†’ Release â
 - **Source repository:** https://github.com/eku2101/erratic-enfants-app
 - **Standalone demo:** open `Erratic-Enfants-App-Preview.html` in Chrome or Edge.
 
-The app is intended for public access. The GitHub source repository is private to Erin and people she grants access to. This is a separate version; it does not replace Robert's shared repository or either earlier Erratic Enfants website.
+The app and GitHub source repository are public. Robert and other reviewers can read the code and this ReadMe without signing in. This is a separate version; it does not replace Robert's shared repository or either earlier Erratic Enfants website.
 
 ## Purpose and classroom connection
 

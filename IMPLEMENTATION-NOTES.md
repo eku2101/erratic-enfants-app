@@ -53,7 +53,7 @@ Added the existing School of Rock / Learning in Song and Freedom Writers / I Am 
 
 ## Publication follow-up — 24 October 2026
 
-Erin requested a ReadMe.md, public app access, and GitHub storage, selecting a new repository under her eku2101 account. The target app is https://erratic-enfants-app.eku2101.chatgpt.site, with source in https://github.com/eku2101/erratic-enfants-app. Public access applies to the app; the source repository is private. Only this app project is saved, including its code, standalone demo, design references, and verification artifacts. Unrelated workspace folders and private weekend notes are excluded. Robert's shared repository and both older Sites remain unchanged.
+Erin requested a ReadMe.md, public app access, and GitHub storage, selecting a new repository under her eku2101 account. The target app is https://erratic-enfants-app.eku2101.chatgpt.site, with source in https://github.com/eku2101/erratic-enfants-app. Erin subsequently requested public repository access so Robert can view the code and ReadMe without signing in; both the app and source repository are now public. Only this app project is saved, including its code, standalone demo, design references, and verification artifacts. Unrelated workspace folders and private weekend notes are excluded. Robert's shared repository and both older Sites remain unchanged.
 
 ## Next joint review
 

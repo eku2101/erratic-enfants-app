@@ -34,6 +34,6 @@ review/ contains verification notes and screenshots.
 
 App address: https://erratic-enfants-app.eku2101.chatgpt.site
 Source repository: https://github.com/eku2101/erratic-enfants-app
-The app is intended for public access; Erin's GitHub source repository is private.
+The app and Erin's GitHub source repository are public; the code and ReadMe can be viewed without signing in.
 The earlier websites and Robert's shared repository are unchanged. These files
 are prepared for Erin to email; nothing has been sent to Robert automatically.
