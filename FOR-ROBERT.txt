@@ -1,0 +1,39 @@
+ERRATIC ENFANTS — ERIN'S APP VERSION
+Updated: 24 October 2026
+
+Open Erratic-Enfants-App-Preview.html in Chrome or Edge to review the app.
+Choose Begin and a feeling. Recharge appears after Reflect (10 seconds)
+and Release (90 seconds), then runs for 20 active seconds.
+
+Recharge now includes two optional movie links:
+School of Rock — Learning in Song
+https://www.rottentomatoes.com/m/school_of_rock/videos/ScT_OYLuqaPK
+An example of finding another way into learning when a lesson needs to change.
+
+Freedom Writers — I Am Home
+https://www.rottentomatoes.com/m/freedom_writers/videos/FCnSJ1fiwyJF
+An example of the sense of belonging a teacher can help create.
+
+The links need internet access and open the full source clips in a new tab.
+They are not edited 20-second video files. Clicking a link pauses an active
+reset; return to the app tab and tap Resume. After completion, both links
+remain available. No footage is downloaded, embedded, or rehosted.
+
+Editable app code is in dist/:
+  index.html — structure and the two Recharge links
+  styles.css — fixed 4:5 canvas and layout
+  app.mjs — buttons, steps, and pausing for external clips
+  session.mjs — 10/90/20-second session timing
+  content.mjs — check-in-specific teacher support
+  assets/ — original icon and wave sound
+
+Read AGENTS.md first, then IMPLEMENTATION-NOTES.md for the documented
+upstream merge conflicts and Erin's requested movie-link exception.
+ReadMe.md explains how to run, test, and rebuild the standalone demo.
+review/ contains verification notes and screenshots.
+
+App address: https://erratic-enfants-app.eku2101.chatgpt.site
+Source repository: https://github.com/eku2101/erratic-enfants-app
+The app is intended for public access; Erin's GitHub source repository is private.
+The earlier websites and Robert's shared repository are unchanged. These files
+are prepared for Erin to email; nothing has been sent to Robert automatically.

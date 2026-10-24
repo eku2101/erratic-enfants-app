@@ -1,0 +1,119 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 1. Technical Basics -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- 2. SEO & Target Audience -->
+  <title>Erratic Enfants | A 2 minute break from your students</title>
+  <meta name="description" content="A quick, 2-minute classroom wellbeing reset designed for first-year teachers to manage stress, reduce cognitive overload, and regain emotional calm.">
+  <meta name="keywords" content="first year teacher stress, teacher wellbeing, classroom mindfulness, 2 minute teacher reset">
+  
+  <!-- 3. Social Sharing (Open Graph) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="2-Minute Classroom Reset for Stressed Teachers">
+  <meta property="og:description" content="Take a quick 2-minute mental break tailored for first-year educators.">
+  <meta property="og:image" content="https://i0.wp.com/ubercrawl.net/wp-content/uploads/2017/10/terminus_logo.gif">
+  <meta property="og:url" content="https://ubercrawl.net/5003-3/">
+
+  <!-- 4. Mobile & PWA Optimizations -->
+  <meta name="theme-color" content="#12181b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Erratic Enfants">
+
+  <!-- 5. App Icons & Stylesheets -->
+
+  <!-- Main Favicon for Browser Tabs -->
+  <link rel="icon" href="https://gravatar.com/userimage/11521900/d6bcfacd816d69a3e2a8c430d245de04.jpeg?size=32" type="image/jpeg">
+
+  <!-- High-Resolution Touch Icon for Mobile Home Screens -->
+  <link rel="apple-touch-icon" href="https://gravatar.com/userimage/11521900/d6bcfacd816d69a3e2a8c430d245de04.jpeg?size=180">
+  
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app-viewport">
+<main class="app-canvas">
+
+  <!-- 1. Landing Screen (Active on initial load) -->
+  <section class="app-landing" id="app-landing">
+    <!-- Breathing animation container active on load -->
+    <div class="breathe" aria-label="Calming breathing exercise"></div>
+  </section>
+
+  <!-- 2. Header (Hidden on landing, appears when step-1 starts) -->
+  <header class="app-header" id="app-header" hidden>
+    <div class="progress-container">
+      <progress id="reset-progress" value="1" max="3" aria-label="Step progress"></progress>
+    </div>
+    <div class="countdown-watch" id="timer-display" aria-live="polite">0:10</div>
+  </header>
+
+  <!-- 3. Dynamic Step Sections Area -->
+  <div class="app-body">
+
+    <!-- STEP 1: Assessment / Triage -->
+    <section class="step" id="step-1" hidden>
+      <h4>I feel...</h4>
+      <div class="button-group">
+        <button type="button" class="btn-option" data-category="overworked">OVERWORKED</button>
+        <button type="button" class="btn-option" data-category="disrespected">DISRESPECTED</button>
+        <button type="button" class="btn-option" data-category="alone">ALONE</button>
+      </div>
+
+      <!-- Sub-options for OVERWORKED -->
+      <div class="sub-panel" id="panel-overworked" hidden>
+        <h4>Too much to...</h4>
+        <label><input type="radio" name="stress-source" value="grade"> GRADE</label>
+        <label><input type="radio" name="stress-source" value="plan"> PLAN</label>
+        <label><input type="radio" name="stress-source" value="relax"> RELAX</label>
+      </div>
+
+      <!-- Sub-options for DISRESPECTED -->
+      <div class="sub-panel" id="panel-disrespected" hidden>
+        <h4>I'm upset at my...</h4>
+        <label><input type="radio" name="respect" value="students-parents"> STUDENTS / PARENTS</label>
+        <label><input type="radio" name="respect" value="administrators"> ADMINISTRATORS</label>
+        <label><input type="radio" name="respect" value="own-failings"> OWN FAILINGS</label>
+      </div>
+
+      <!-- Sub-options for ALONE -->
+      <div class="sub-panel" id="panel-alone" hidden>
+        <h4>A word that describes what you're feeling:</h4>
+        <input type="text" id="textbox-alone" placeholder="Type a word..." />
+      </div>
+    </section>
+
+    <!-- STEP 2: Tailored Micro-Intervention -->
+    <section class="step" id="step-2" hidden>
+      <!-- Content dynamically injected based on stress-source / respect / textbox-alone -->
+      <div id="tailored-activity-container"></div>
+    </section>
+
+    <!-- STEP 3: Humorous & Inspiring Closing -->
+    <section class="step" id="step-3" hidden>
+      <ul class="reflection-list">
+        <li><strong>Teacher Humor:</strong> Random teacher joke snippet</li>
+        <li><em>"You can't make this stuff up."</em> — A year from now, you'll look back & smile.</li>
+        <li>Teaching is one of the few honorable professions left.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- 4. Footer Bar -->
+  <footer class="app-footer">
+    <span class="brand-title">Erratic Enfants</span>
+    <button id="btn-begin" type="button" class="reset-button">BEGIN</button>
+    <img src="https://gravatar.com/userimage/11521900/d6bcfacd816d69a3e2a8c430d245de04.jpeg?size=32" alt="App Favicon" class="app-favicon" />
+  </footer>
+
+</main>
+  </div>
+</body>
+</html>

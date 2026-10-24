@@ -1,0 +1,50 @@
+[
+  {
+    "canvas": {
+      "height": 360,
+      "width": 288
+    },
+    "clipped": [],
+    "linkHeights": [
+      44,
+      44
+    ],
+    "scroll": false,
+    "viewport": {
+      "height": 568,
+      "width": 320
+    }
+  },
+  {
+    "canvas": {
+      "height": 448,
+      "width": 358.3999938964844
+    },
+    "clipped": [],
+    "linkHeights": [
+      44,
+      44
+    ],
+    "scroll": false,
+    "viewport": {
+      "height": 844,
+      "width": 390
+    }
+  },
+  {
+    "canvas": {
+      "height": 868,
+      "width": 694.4000244140625
+    },
+    "clipped": [],
+    "linkHeights": [
+      68.5250015258789,
+      68.5250015258789
+    ],
+    "scroll": false,
+    "viewport": {
+      "height": 900,
+      "width": 1366
+    }
+  }
+]

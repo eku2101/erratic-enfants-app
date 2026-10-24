@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#12181b">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="A focused two-minute pause for first-year teachers: reflect, release, and recharge.">
+  <title>Erratic Enfants · A two-minute pause</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+<div class="app-viewport">
+  <main class="app-canvas" id="app" data-mode="landing" data-motion="on" aria-label="Erratic Enfants teacher reset">
+    <!-- Fixed header, central stage, fixed footer: Robert's wireframe. -->
+    <header class="app-header" id="app-header" hidden>
+      <div class="progress-container">
+        <div class="stage-labels" aria-hidden="true"><span>Reflect</span><span>Release</span><span>Recharge</span></div>
+        <progress id="reset-progress" value="0" max="120" aria-label="Two-minute reset progress"></progress>
+        <div class="step-segments" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+      <div class="countdown-watch"><output id="timer-display" aria-live="off" aria-label="Time remaining in this step">0:10</output><span id="timer-label">this step</span></div>
+    </header>
+
+    <div class="app-body">
+      <section class="app-landing focus-stage" id="app-landing" aria-labelledby="landing-title">
+        <div class="landing-copy"><p class="eyebrow">A moment for you</p><h1 id="landing-title" tabindex="-1">Find a little<br>calm in the chaos.</h1><p><time datetime="PT2M">Two minutes.</time> One gentle reset.</p></div>
+        <!-- Original vector scenery: the harbor idea stays on the landing screen. -->
+        <svg class="harbor" viewBox="0 0 600 560" aria-hidden="true" focusable="false">
+          <defs><radialGradient id="moon-glow"><stop stop-color="#a3a7db" stop-opacity=".17"/><stop offset="1" stop-color="#a3a7db" stop-opacity="0"/></radialGradient><linearGradient id="water" x2="0" y2="1"><stop stop-color="#283b40"/><stop offset="1" stop-color="#12181b"/></linearGradient></defs>
+          <circle class="moon-glow" cx="395" cy="140" r="110" fill="url(#moon-glow)"/>
+          <g class="moon"><circle cx="395" cy="140" r="33" fill="#a3a7db" opacity=".82"/><circle cx="386" cy="132" r="7" fill="#8b90bd" opacity=".35"/><circle cx="406" cy="148" r="10" fill="#8b90bd" opacity=".25"/></g>
+          <g fill="#94a3b8" opacity=".5"><circle cx="125" cy="155" r="1.5"/><circle cx="230" cy="100" r="1"/><circle cx="478" cy="211" r="1.5"/><circle cx="307" cy="197" r="1"/><circle cx="76" cy="245" r="1"/></g>
+          <path d="M0 390 Q145 350 300 382 T600 370 V560 H0Z" fill="url(#water)"/>
+          <g class="ship">
+            <path d="M162 377 Q238 398 342 377 L314 416 Q235 431 185 403Z" fill="#344c51" stroke="#6db3b1" stroke-width="1.5"/>
+            <path d="M250 246 V383 M250 258 L306 353 L250 350Z" fill="#607b7c" stroke="#8ab49c" stroke-width="2"/>
+            <path d="M240 282 Q200 315 193 356 L240 351Z" fill="#8ab49c" opacity=".6"/>
+            <path d="M251 246 L276 251 L251 260Z" fill="#a3a7db" opacity=".8"/>
+            <path d="M169 373 L153 358 M332 380 L357 369" stroke="#6db3b1" stroke-width="3"/>
+            <g fill="#a3a7db" opacity=".6"><circle cx="213" cy="398" r="3"/><circle cx="237" cy="401" r="3"/><circle cx="261" cy="402" r="3"/><circle cx="285" cy="400" r="3"/></g>
+          </g>
+          <g class="waves-back" fill="none" stroke="#6db3b1" opacity=".24" stroke-width="1.5"><path d="M-40 430 Q45 415 130 430 T300 430 T470 430 T640 430"/><path d="M-70 470 Q15 455 100 470 T270 470 T440 470 T610 470"/></g>
+          <g class="waves-front" fill="none" stroke="#8ab49c" opacity=".2"><path d="M-20 500 Q65 486 150 500 T320 500 T490 500 T660 500"/><path d="M40 447 Q80 440 120 447 M355 447 Q395 440 435 447"/></g>
+        </svg>
+        <p class="landing-note" id="landing-note">Stay aware of your classroom.</p>
+      </section>
+
+      <section class="step focus-stage" id="step-1" data-step="reflect" aria-labelledby="reflect-title" hidden>
+        <div class="wellbeing-container" id="feeling-panel">
+          <h2 id="reflect-title" tabindex="-1">I feel…</h2>
+          <div class="button-group" aria-label="How you feel">
+            <button class="btn-option" data-category="overworked">Overworked <span aria-hidden="true">↗</span></button>
+            <button class="btn-option" data-category="disrespected">Disrespected <span aria-hidden="true">↗</span></button>
+            <button class="btn-option" data-category="alone">Alone <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="instruction-text">Choose what fits. Release starts after 10 seconds.</p>
+        </div>
+        <div class="wellbeing-container" id="detail-panel" hidden>
+          <h2 id="detail-title" tabindex="-1">Too much to…</h2>
+          <fieldset id="detail-choices"><legend class="sr-only">What is behind this feeling?</legend><div id="choice-list"></div></fieldset>
+          <div id="alone-input" hidden><label for="feeling-word">One word, if you’d like.</label><input id="feeling-word" type="text" maxlength="40" autocomplete="off" placeholder="e.g. overwhelmed"><p class="instruction-text">Typing pauses the timer. Tap Resume when ready.</p></div>
+          <button class="text-button" id="change-feeling">← Change feeling</button>
+        </div>
+      </section>
+
+      <section class="step focus-stage" id="step-2" data-step="release" aria-labelledby="release-title" hidden>
+        <div class="wellbeing-container release-content">
+          <h2 id="release-title" tabindex="-1">One breath at a time.</h2>
+          <figure class="breath-figure" id="breath-figure"><div class="breathing-guide" id="breathing-guide" aria-hidden="true"></div><figcaption><span id="breath-prompt" aria-live="polite">Breathe in</span><span class="breath-count" id="breath-count" aria-hidden="true">4</span></figcaption></figure>
+          <div class="grounding-visual" id="grounding-visual" aria-hidden="true" hidden><span>●</span><span>●</span><span>●</span></div>
+          <p class="tailored-cue" id="tailored-cue">Feel your feet. Let your shoulders settle.</p>
+          <button class="text-button" id="practice-toggle">Prefer grounding?</button>
+        </div>
+      </section>
+
+      <section class="step focus-stage" id="step-3" data-step="recharge" aria-labelledby="recharge-title" hidden>
+        <article class="wellbeing-container summary-card">
+          <h2 id="recharge-title" tabindex="-1">Take this with you.</h2>
+          <ul class="reflection-list"><li class="humor"><p id="teacher-joke"></p></li><li><p id="reassurance"></p></li><li class="intention"><span class="eyebrow">One small next step</span><p id="next-action"></p></li></ul>
+          <div class="movie-moments" aria-label="Optional teacher movie moments">
+            <p id="movie-links-note">Optional clips · open in a new tab</p>
+            <div class="movie-links">
+              <a class="movie-link" href="https://www.rottentomatoes.com/m/school_of_rock/videos/ScT_OYLuqaPK" target="_blank" rel="noopener noreferrer" aria-describedby="movie-links-note" title="Learning in Song — finding another way into learning"><span class="movie-title">School of Rock</span><span class="movie-scene">Learning in Song ↗</span></a>
+              <a class="movie-link" href="https://www.rottentomatoes.com/m/freedom_writers/videos/FCnSJ1fiwyJF" target="_blank" rel="noopener noreferrer" aria-describedby="movie-links-note" title="I Am Home — helping students feel they belong"><span class="movie-title">Freedom Writers</span><span class="movie-scene">I Am Home ↗</span></a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer class="app-footer">
+      <span class="brand-title">Erratic<br><strong>Enfants</strong></span>
+      <div class="landing-controls" id="landing-controls">
+        <button class="icon-button" id="motion-toggle" aria-label="Turn off motion" aria-pressed="true" title="Turn off motion"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8c4-5 5 5 9 0s5 5 9 0M3 16c4-5 5 5 9 0s5 5 9 0"/></svg></button>
+        <button class="icon-button" id="sound-toggle" aria-label="Turn on wave sounds" aria-pressed="false" title="Turn on wave sounds"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4ZM17 9l5 6m0-6-5 6"/></svg></button>
+        <button class="reset-button" id="btn-begin">Begin</button>
+      </div>
+      <div class="session-controls" id="session-controls" hidden><button class="text-button" id="exit-session">Return</button><button class="text-button" id="pause-session" aria-label="Pause reset" title="Pause reset">Pause</button></div>
+      <button class="reset-button" id="finish-session" hidden>Return</button>
+    </footer>
+    <section class="room-message" id="room-message" aria-labelledby="room-title" hidden><h2 id="room-title" tabindex="-1">A little more room.</h2><p>Turn your phone upright or enlarge this window to continue.</p></section>
+  </main>
+</div>
+<p class="sr-only" id="announcer" role="status" aria-live="polite" aria-atomic="true"></p>
+<audio id="wave-audio" src="./assets/harbor.wav" loop preload="none"></audio>
+<noscript><p class="no-script">This reset needs JavaScript enabled.</p></noscript>
+</body>
+</html>

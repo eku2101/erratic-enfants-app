@@ -1,0 +1,632 @@
+{
+  "reflect": [
+    {
+      "canvas": [
+        288,
+        360
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Overworked ↗",
+          "width": 254.40000915527344
+        },
+        {
+          "height": 44,
+          "name": "Disrespected ↗",
+          "width": 254.40000915527344
+        },
+        {
+          "height": 44,
+          "name": "Alone ↗",
+          "width": 254.40000915527344
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "canvas": [
+        358.3999938964844,
+        448
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Overworked ↗",
+          "width": 314
+        },
+        {
+          "height": 44,
+          "name": "Disrespected ↗",
+          "width": 314
+        },
+        {
+          "height": 44,
+          "name": "Alone ↗",
+          "width": 314
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.7999999863760812,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": [
+        736,
+        920
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 74.55000305175781,
+          "name": "Overworked ↗",
+          "width": 646.2750244140625
+        },
+        {
+          "height": 74.55000305175781,
+          "name": "Disrespected ↗",
+          "width": 646.2750244140625
+        },
+        {
+          "height": 74.55000305175781,
+          "name": "Alone ↗",
+          "width": 646.2750244140625
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": [
+        694.4000244140625,
+        868
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 70.4124984741211,
+          "name": "Overworked ↗",
+          "width": 609.6749877929688
+        },
+        {
+          "height": 70.4124984741211,
+          "name": "Disrespected ↗",
+          "width": 609.6749877929688
+        },
+        {
+          "height": 70.4124984741211,
+          "name": "Alone ↗",
+          "width": 609.6749877929688
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 88.55000305175781
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000000281268002,
+      "viewport": [
+        1366,
+        900
+      ]
+    },
+    {
+      "canvas": [
+        1080,
+        1350
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 84.80000305175781,
+          "name": "Overworked ↗",
+          "width": 950.4000244140624
+        },
+        {
+          "height": 84.80000305175781,
+          "name": "Disrespected ↗",
+          "width": 950.4000244140624
+        },
+        {
+          "height": 84.80000305175781,
+          "name": "Alone ↗",
+          "width": 950.4000244140624
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "canvas": [
+        286.7124938964844,
+        358.38751220703125
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Overworked ↗",
+          "width": 253.1125030517578
+        },
+        {
+          "height": 44,
+          "name": "Disrespected ↗",
+          "width": 253.1125030517578
+        },
+        {
+          "height": 44,
+          "name": "Alone ↗",
+          "width": 253.1125030517578
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000069314102047,
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "release": [
+    {
+      "canvas": [
+        288,
+        360
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 123.70000457763672
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "canvas": [
+        358.3999938964844,
+        448
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 123.70000457763672
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.7999999863760812,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": [
+        736,
+        920
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 211.4375
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": [
+        694.4000244140625,
+        868
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 207.875
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 88.55000305175781
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000000281268002,
+      "viewport": [
+        1366,
+        900
+      ]
+    },
+    {
+      "canvas": [
+        1080,
+        1350
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 211.4375
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "canvas": [
+        286.7124938964844,
+        358.38751220703125
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Prefer grounding?",
+          "width": 123.70000457763672
+        },
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000069314102047,
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ],
+  "recharge": [
+    {
+      "canvas": [
+        288,
+        360
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        320,
+        568
+      ]
+    },
+    {
+      "canvas": [
+        358.3999938964844,
+        448
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.7999999863760812,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "canvas": [
+        736,
+        920
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "canvas": [
+        694.4000244140625,
+        868
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 88.55000305175781
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000000281268002,
+      "viewport": [
+        1366,
+        900
+      ]
+    },
+    {
+      "canvas": [
+        1080,
+        1350
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 89.8499984741211
+        },
+        {
+          "height": 53.60000228881836,
+          "name": "Resume reset",
+          "width": 53.60000228881836
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8,
+      "viewport": [
+        2000,
+        1600
+      ]
+    },
+    {
+      "canvas": [
+        286.7124938964844,
+        358.38751220703125
+      ],
+      "clipped": [],
+      "controls": [
+        {
+          "height": 44,
+          "name": "Return",
+          "width": 57.837501525878906
+        },
+        {
+          "height": 44,
+          "name": "Resume reset",
+          "width": 44
+        }
+      ],
+      "documentScroll": [
+        false,
+        false
+      ],
+      "ratio": 0.8000069314102047,
+      "viewport": [
+        844,
+        390
+      ]
+    }
+  ]
+}

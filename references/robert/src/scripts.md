@@ -1,0 +1,2 @@
+Step 2 Branching: In step 2, reading stressSource, respect, or textboxAlone allows you to map specific cognitive reappraisals directly from your research library (e.g., reframing uncooperative behavior or student conflicts).   
+Step 3 Tone Shift: Concluding with light humor and validation ("Teaching is one of the few honorable professions left") provides an emotional lift before returning to the classroom.   
